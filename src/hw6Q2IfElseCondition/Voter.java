@@ -1,7 +1,7 @@
 package hw6Q2IfElseCondition;
 
 public class Voter {
-
+	
 	public static void main(String[] args) {
 		int age = 43;
 
