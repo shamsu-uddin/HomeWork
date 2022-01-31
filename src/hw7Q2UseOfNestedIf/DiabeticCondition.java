@@ -1,4 +1,4 @@
-package hw7Q2IfElseCondition;
+package hw7Q2UseOfNestedIf;
 
 import java.util.Scanner;
 
