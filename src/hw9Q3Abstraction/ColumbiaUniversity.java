@@ -9,15 +9,18 @@ public class ColumbiaUniversity extends MedicalSchool {
 	public void biology() {
 		System.out.println(" This class is from CplumbiaUniversity ");
 	}
-    //default Constructor
+
+	// default Constructor
 	public void ColumbiaUniversity() {
 	}
+
 	@Override
 	public void anatomyLab() {
 		// TODO Auto-generated method stub
-		}
+	}
+
 	@Override
 	public void hygiene() {
 		// TODO Auto-generated method stub
-		}
+	}
 }
