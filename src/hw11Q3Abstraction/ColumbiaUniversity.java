@@ -1,4 +1,6 @@
-package hw10Q3Abstraction;
+package hw11Q3Abstraction;
+
+import java.security.PublicKey;
 
 //A regular class can inherit only one regular class or one abstract class by extends keyword
 //A regular class can't inherit an Interface by extends keyword
@@ -27,72 +29,71 @@ public class ColumbiaUniversity extends MedicalSchool implements University, Voc
 
 	@Override
 	public void hygiene() {
-		// TODO Auto-generated method stub
+		System.out.println("This hygiene from NursingSchool abstract class");
 	}
 
 	@Override
 	public void commonRoom() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("This commonRoom from College interface class");
 	}
 
 	@Override
 	public void laboratory() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("This laboratory from College interface class");
 	}
 
 	@Override
 	public void languageClub() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("This languageClub from College interface class");
 	}
 
 	@Override
 	public void emergencyRoom() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("This emergencyRoom from Hospital interface class");
 	}
 
 	@Override
 	public void surgeryRoom() {
-		// TODO Auto-generated method stub
+		System.out.println("This surgeryRoom from Hospital interface class");
 		
 	}
 
 	@Override
 	public void cafeteria() {
-		// TODO Auto-generated method stub
+		System.out.println("This cafeteria from Hospital interface class");
 		
 	}
 
 	@Override
 	public void lawInfo() {
-		// TODO Auto-generated method stub
+		System.out.println("This lawInfo from LawSchool interface class");
 		
 	}
 
 	@Override
 	public void vocationalInfo() {
-		// TODO Auto-generated method stub
+		System.out.println("This vocationalInfo from VocationalSchool interface class");
 		
 	}
 
 	@Override
 	public void classSize() {
-		// TODO Auto-generated method stub
+		System.out.println("This classSize from University interface class");
 		
 	}
 
 	@Override
 	public void playGround() {
-		// TODO Auto-generated method stub
+		System.out.println("This playGround from University interface class");
 		
 	}
 
 	@Override
 	public void teacher() {
-		// TODO Auto-generated method stub
+		System.out.println("This teacher from University interface class");
+	 }
+	public static void name() {
+		System.out.println("This is a static method from ColumbiaUinversity");
 		
 	}
 }

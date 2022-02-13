@@ -7,6 +7,7 @@ public class Daughter extends Father {
 	// default constructor
 	public Daughter() {
 		super();
+		super.father();
 		// super keyword is used to call (initialize) the variables of parent class
 		super.familyName = "Uddin";
 		System.out.println("FamilyName: " + familyName);

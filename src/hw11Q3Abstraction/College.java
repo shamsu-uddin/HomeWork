@@ -1,7 +1,4 @@
-package hw9Q3Abstraction;
-
-//An Interface can inherit more than one Interface by extends keyword
-//An Interface can't inherit a regular class or an abstract class by extends keyword
+package hw11Q3Abstraction;
 
 public interface College {
 
