@@ -12,7 +12,7 @@ public abstract class MedicalSchool extends NursingSchool  implements LawSchool 
 		System.out.println("This class is from MedicalSchool ");
 	}
     // Yes, an abstract class can have a constructor
-	public void MedicalSchool() {
+	public MedicalSchool() {
 	}
 	public static void nySchool() {
 		System.out.println("This is static from MedicalSchool abstract Class");

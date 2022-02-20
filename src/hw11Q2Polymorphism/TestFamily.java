@@ -3,14 +3,14 @@ package hw11Q2Polymorphism;
 public class TestFamily {
 public static void main(String[] args) {
 	System.out.println("\n---------Sister----------");
-	Sister si = new Sister();
-si.sister();
-si.sister(25, 20);
-si.sister(15, 21, 33);
-si.sister(11, 22, 30,"45");
-si.sister(12,"20", 15, 10);
+	Sister sis = new Sister();
+sis.sister();
+sis.sister(25, 20);
+sis.sister(15, 21, 33);
+sis.sister(11, 22, 30,"45");
+sis.sister(12,"20", 15, 10);
 Sister.sister(2, 4, 6, 8, 10); // static methoed
-si.sister(10, 20, 30, 40);
+sis.sister(10, 20, 30, 40);
 
        System.out.println("\n----------Niece---------");
 Niece nc = new Niece();

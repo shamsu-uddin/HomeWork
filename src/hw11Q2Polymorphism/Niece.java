@@ -42,7 +42,7 @@ public class Niece extends Sister {
 	// method-6
 	// So, static method can't be override, if we remove @override it will work as
 	// static method of this Niece class
-	
+	@Override
 	   public static int sister(int age1, int age2, int age3, int age5, int age6) { 
        int total5 = age1 + age2 + age3 + age5 + age6;
 	   System.out.println("Total area from local Niece: " +total5); 

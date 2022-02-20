@@ -13,7 +13,7 @@ public class TestInstitute {
 		cu.classSize();
 		cu.ColumbiaUniversity();
 		cu.commonRoom();
-		cu.name();
+		ColumbiaUniversity.name();
 		cu.emergencyRoom();
 		cu.hygiene();
 		cu.laboratory();
@@ -37,6 +37,6 @@ public class TestInstitute {
 		MedicalSchool ms = new ColumbiaUniversity();
 		ms.anatomyLab();
 		ms.biochemistryLab();
-		ms.MedicalSchool();
+		MedicalSchool.nySchool();
      }
  }
